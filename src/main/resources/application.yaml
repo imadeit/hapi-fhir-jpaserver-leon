@@ -115,8 +115,8 @@ hapi:
 #    reuse_cached_search_results_millis: 60000
     tester:
         home:
-          name: Local Tester
-          server_address: 'http://localhost:8080/fhir'
+          name: AWS Tester
+          server_address: 'http://hapi-fhir-jpaapp.eba-mrp25ncq.ap-northeast-1.elasticbeanstalk.com/fhir'
           refuse_to_fetch_third_party_urls: false
           fhir_version: R4
         global:
