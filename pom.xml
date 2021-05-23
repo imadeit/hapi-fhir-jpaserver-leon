@@ -22,10 +22,12 @@
     <artifactId>hapi-fhir-jpaserver-starter</artifactId>
 
     <prerequisites>
-        <maven>3.6.3</maven>
+<!--     change because of limitation of hapi-fhir's maven-enforcer-plugin -->
+<!--         <maven>3.6.3</maven> -->
+        <maven>3.5.4</maven>
     </prerequisites>
 
-    <version>5.3.0</version>
+<!--     <version>5.3.0</version> -->
     <packaging>war</packaging>
 
     <name>HAPI FHIR JPA Server - Starter Project</name>
@@ -37,11 +39,11 @@
         <version>2.0.3.RELEASE</version>
     </parent> -->
     <properties>
-        <java.version>8</java.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
+        <java.version>11</java.version>
+<!--         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit.platform.version>1.2.0</junit.platform.version>
-        <junit.jupiter.version>5.2.0</junit.jupiter.version>
+        <junit.jupiter.version>5.2.0</junit.jupiter.version> -->
     </properties>
     
     <repositories>
