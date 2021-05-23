@@ -10,7 +10,6 @@ phases:
   pre_build:
     commands:
       - mvn -version
-      - java --version
       - mvn clean compile test
   build:
     commands:
